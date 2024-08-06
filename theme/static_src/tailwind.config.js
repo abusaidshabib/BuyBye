@@ -42,7 +42,20 @@ module.exports = {
         // '../../**/*.py'
     ],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily:{
+                syne:["Syne", "sans-serif"],
+                inter:["Inter", "sans-serif"]
+            },
+            colors:{
+                color_1: "#292522",
+                color_2: "#4d6160",
+                color_3: "#a39081",
+                color_4: "#d6a692",
+                color_5: "#efd9b4",
+                color_6: "#272727",
+            }
+        },
     },
     plugins: [
         /**
